@@ -1,0 +1,42 @@
+//variable -> which stores a data
+// In sass a variable will store a unique value
+$new: #44a3db; //variable
+$font: 10px+28.5px; 
+$background:#ff006e;
+#a{
+    background-color: $background;
+    // border-radius: 200px;
+    margin-left: 50px;
+}
+#b{
+    color: $new;
+    text-align: center;
+    margin-left: 20px;
+}
+#c{
+    color: white;
+    text-align: center;
+}
+h1{
+    color: #264653;
+    // background-color: #e686ab;
+    // background-color: $new;
+    text-align: center;
+    // font-size: $font;
+    // padding: $font;
+    border-radius: $font;
+}
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+#box1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgb(230, 58, 207);
+    position: absolute;
+    left: 50vmax;
+    top: 24vmin;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: whitesmoke;
+        }
+        .container{
+            height: 100%;
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            background-color: whitesmoke;
+            text-align: center;
+        }
+        .box{
+            margin-top: 30px;
+            padding: 20px;
+            width: 350px;
+            height: 380px;
+            text-align: center;
+            border: 1px solid rgb(194, 184, 184);
+            background-color: white;
+        }
+        #hed{
+            font-size: 40px;
+            font-weight: 400;
+            font-family: solid;
+            margin-top: 10px;
+        }
+        #int{
+            width: 250px;
+            height: 30px;
+            margin: 20px 30px 10px 30px;
+            background-color: whitesmoke;
+            padding: 10px;
+            border: 1px solid rgb(216, 211, 211);
+
+        }
+        #a{
+            width: 250px;
+            height: 30px;
+            margin: 20px 30px 10px 30px;
+            background-color: rgb(91, 91, 236);
+            padding: 0px;
+            border: 1px solid rgb(216, 211, 211);
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+        }
+        .box.a{
+            height: 80px;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 id="hed"> Instagram</h2>
+            <input type="text" id="int" placeholder="user name,email id,phone No" required>
+            <input type="password" id="int" placeholder="password" required>
+            <input id="a" type="Submit" value="Login">
+            <p style="text-align: center;">OR</p>
+            <p style="color:blue; padding: 20px; font-size: 21px; cursor: pointer;">Login with the facebook</p>
+            <p>forget password <span style="color:blue; cursor: pointer;">?</span></p>
+        </div>
+        <div class="box a">
+            <p style="font-size: 18px;color: rgb(83, 77, 77,1);"> Don't have an account
+            <u><span style="color:blue; cursor:pointer;">Sign in</span></u></p>
+            <span style="size:20px;padding:20px;">Get the app</span>
+            <img style="cursor:pointer; border-radius: 10px; width: 200px; height: 50px; margin-top: 30px;" src="google.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

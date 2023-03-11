@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day-4</title>
+    <!-- 2. Internal CSS are written in head tag -->
+    <!-- There are three different Selectors used in internal CSS 
+         They are:
+             tag name, id name and class name -->
+        <style>
+            /* tag name*/
+            h2{
+                color: blueviolet;
+                font-size: 35px;
+                background-color: cornflowerblue;
+                font-family: cursive;
+                text-align: center;
+            }
+            /* id name */
+            /* # (hash) is used for id name */
+            #h2id{
+                color: cyan;
+                font-size: 40px;
+                background-color: violet;
+                font-family: monospace;
+            }
+            /* class name */
+            /* . (dot) is used for class name  */
+            .h2class{
+                color: royalblue;
+                font-size: 40px;
+                background-color: violet;
+                font-family: fantasy; 
+            }
+        </style>
+
+</head>
+
+<body>
+    <!-- 1. inline CSS-->
+    <h1 style="color:green; background-color: yellow;font-size: 55px;font-family: cursive; text-align:center;">Adding multimedia to the webpage</h1>
+
+    <h2>Image 1</h2>   <!--tag name is applied-->
+    <h2 id="h2id">video 1</h2> <!-- tag name is applied then id name overwrites the properties -->
+    <h2 class="h2class">audio 1</h2> <!-- tag name is applied then class name overwrites the properties -->
+
+
+    <div align="center">
+        <img src="additionalFiles\emoji2.jpg" width="400px" height="400px" alt="">
+        
+        <h2>Image 1</h2>
+        <video src="additionalFiles\King - Maan Meri Jaan (Lyrics).mp4" width="400px" height="400px" controls></video>
+        <!--controls will helps you to control-->
+        <audio src="additionalFiles\audio1505930211.m4a" controls></audio>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5BVi4DLoMTk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <!-- iframe will be able to embed the code of different website into your website/page/document -->
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card mb-5 shadow-sm">
+            <div class="embed-responsive">
+                <div class="row" style="height: 29vh;">
+                <iframe class=" col embed-responsive-item rounded"   
+                 src="https://www.youtube.com/embed/xycoPHNwG4g" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            <div class="card-body">
+                <div class="card-title">
+                    <h1>Jana Gana Mana</h1>
+                </div>
+                <div class="card-text">
+                    <p>
+                        "Jana Gana Mana" (Sanskrit: जन गण मन) is the national anthem of the Republic of India. It was originally composed as Bharoto Bhagyo Bidhata in Bengali by polymath Rabindranath Tagore on 11 December 1911. The first stanza of the song Bharoto Bhagyo Bidhata...
+                    </p>
+                </div>
+                <a href="https://en.wikipedia.org/wiki/Jana_Gana_Mana" target="_blank"
+                    class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

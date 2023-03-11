@@ -1,0 +1,215 @@
+.main-logo {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    rotate: 50deg;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.circle {
+    width: 67px;
+    height: 67px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+body {
+    background-color: black;
+    position: relative;
+}
+
+.jslogo {
+    top: 20px;
+    margin-left: 400px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    margin-bottom: 0px;
+}
+
+.js {
+    position: absolute;
+    top: 6px;
+    left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.youtubelogo {
+    width: 200px;
+    height: 130px;
+    background-color: red;
+    border-radius: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 568px;
+}
+
+.triangle {
+    border-top: 30px solid transparent;
+    border-left: 50px solid white;
+    border-bottom: 28px solid transparent;
+}
+
+.fblogo {
+    width: 300px;
+    height: 300px;
+    background-color: #007fff;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f {
+    color: white;
+    font-size: 300px;
+    font-family: sans-serif;
+    margin-top: 330px;
+}
+
+.logo4 {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 30px;
+    top: 290px;
+    left: 900px;
+}
+.logo5 {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 30px;
+    top: 290px;
+    left: 500px;
+}
+.dell-circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 17px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.same{
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+}
+.E{
+    rotate: -40deg;
+}
+.logo7 {
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 30px;
+    top: 0px;
+    left: 900px;
+}
+
+.same1{
+    width: 80px;
+    height: 80px;
+}
+.square-1{
+    background-color: #f25022;
+    position: absolute;
+    left:80px;
+    top: 40px;
+}
+.square-2{
+    background-color: #7fba00;
+    position: absolute;
+    top:40px;
+    left: 165px;
+}
+.square-3{
+    background-color: #00a4ef;
+    position: absolute;
+    top:124px;
+    left: 165px;
+}
+.square-4{
+    background-color: #ffb900;
+    position: absolute;
+    top:124px;
+    left: 80px;
+}
+
+.logo6 {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 30px;
+    top: 290px;
+    left: 90px;
+}
+.circle1{
+    width: 200px;
+    height: 200px;
+    border: 15px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.triangle-1{
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 130px solid black;
+    position: absolute;
+    bottom: 85px
+}
+.triangle-2{
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 130px solid black;
+    border-bottom: 30px solid transparent;
+    rotate: -30deg;
+    position: absolute;
+   right: 69px;
+   bottom: 35px;   
+}
+.triangle-3{
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 130px solid black;
+    border-bottom: 30px solid transparent;
+    rotate: 30deg;
+    position: absolute;
+   left: 69px;
+   bottom: 35px;   
+}

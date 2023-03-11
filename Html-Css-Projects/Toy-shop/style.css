@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    position: relative;
+}
+
+.heading{
+    font-size: 80px;
+    color: lightgreen;
+    font-family: 'Mynerve', cursive;
+    text-align: center;
+}
+.same-boxes{
+    color: saddlebrown;
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 6px 10px whitesmoke;
+    cursor: pointer;
+    position: absolute;
+    transition: 1s;
+}
+
+.same-boxes:hover{
+    background-color: rgb(134, 255, 134);
+    box-shadow: 0px 1px 50px burlywood;
+}
+
+.same-things{
+    font-family: 'Lobster', cursive;
+}
+.price{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.same-buttons{
+    font-weight: bold;
+    background-color: lightpink;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+.same-buttons:hover{
+    background-color: thistle;
+}
+.box-1{
+    top: 130px;
+    left:200px;
+}
+.box-2{
+    top:130px;
+    left: 450px;
+}
+.box-3{
+    top:130px;
+    left:670px
+}
+.box-4{
+    top:320px;
+    left: 200px;
+    width: 190px;
+}
+.box-5{
+    top: 320px;
+    left: 440px;
+}
+.box-6{
+    top: 320px;
+    left: 685px;
+    width: 190px;
+}

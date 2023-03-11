@@ -1,0 +1,37 @@
+ #a {
+    color: red;
+    background-image: linear-gradient(30deg,yellow,blue,pink,green,white,black);
+    background-color: black;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* .b{
+    color: brown;
+    background-color: darkcyan;
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c{
+    /* Box model */
+    /* padding: 120px;
+    margin: 120px;
+    border-radius: 100px;
+    border-width: 10px;
+    border-color: maroon;
+    border-style: dotted;
+}   */
+
+
+
+body{
+    /* background-color: #e7c6ff; */
+    background-image: url(https://images.pexels.com/photos/7180590/pexels-photo-7180590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-attachment: fixed;
+    /* 
+    fixed is used to make the bg-image fixed and data to be scrolled but not the bg-image
+    */
+
+    background-repeat: no-repeat ;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+}

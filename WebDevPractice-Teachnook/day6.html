@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        div {
+            color: white;
+            text-indent: 50px;
+        }
+
+        h1 {
+            color: blueviolet;
+            background-color: black;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: oblique;
+            background-image: linear-gradient(20deg, gray, yellow, orange, blue);
+            border-radius: 100px;
+            text-align: center;
+
+            /* Css decoration */
+
+            text-transform: uppercase;
+            text-decoration: line-through;
+            text-decoration-color: burlywood;
+
+            /* letter-spacing: 10px; */
+            /* word-spacing: 10px; */
+        }
+
+        p {
+
+            padding: 0;
+            margin: 0;
+            line-height: 20px;
+        }
+
+        body {
+            background-image: url(https://images.pexels.com/photos/15386484/pexels-photo-15386484.jpeg);
+            /* background-repeat: no-repeat; */
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        h2 {
+            width: 200px;
+            height: 200px;
+            color: white;
+            background-color: teal;
+            margin: 20px;
+            border-radius: 20px;
+            text-align: center;
+            padding: 20px;
+            animation-name: mybox;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            position: relative;
+        }
+
+        @keyframes mybox {
+
+            /* from{background-color: cyan;}
+            to{background-color: darkred;} */
+            10% {
+                background-color: cyan;left:0px;top: 0px;
+            }
+
+            40% {
+                background-color: darkred;left: 200px;top: 0px;
+            }
+
+            60% {
+                background-color: chartreuse;left: 300px;top: 200px;
+            }
+
+            90% {
+                background-color: darkgreen;left: 0px;top: 200px;
+            }
+            100%{
+                background-color: deeppink;left: 0px;top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Introduction to CSS</h1>
+        <p>fixed: only content is scrollable but the bg is fixed </p>
+        <p>scroll: both content and bg are scrollable</p>
+        <p>text-intent: can shift your text where ever you want (L to R)</p>
+        <p>If you want space between each line you can add a property line-height</p>
+    </div>
+    <div>
+        Enter your mail ID: <input type="text">
+    </div>
+    <h2>My box</h2>
+</body>
+
+</html>

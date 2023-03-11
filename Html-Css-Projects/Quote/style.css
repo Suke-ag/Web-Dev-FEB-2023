@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to left bottom,rgba(12, 160, 223, 0.673),rgb(187, 166, 213),white);
+    min-height: 100vh;
+    margin-top: 150px;
+    margin-left: 300px;
+    /* position: relative; */
+}
+
+.rectangle{
+    width: 80%;
+    height: 150px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 30px 20px black;
+}
+.rectangle:hover{
+    box-shadow: 10px 10px 40px whitesmoke;
+}
+h1{
+    padding: 15px;
+    color: rgb(107, 185, 203);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1:hover{
+    color: white;
+}

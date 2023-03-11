@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(plum, thistle, lightblue);
+    min-height: 100vh;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Bungee Inline', cursive;
+    color: rgb(41, 75, 41);
+    margin: 0;
+}
+
+.btn{
+    width: 500px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: black;
+    margin-top: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.twitter{
+    border: 3px solid aqua;
+    color: aqua;
+    box-shadow: 7px 7px 15px aqua;
+}
+
+.YouTube{
+    border: 3px solid red;
+    color: red;
+    box-shadow: 7px 7px 15px red;
+}
+
+.Blog{
+    border: 3px solid lightgreen;
+    color: lightgreen;
+    box-shadow: 7px 7px 15px lightgreen;
+}
+
+.coffee{
+    border: 3px solid lightsalmon;
+    color: lightsalmon;
+    box-shadow: 7px 7px 15px lightsalmon;
+}
