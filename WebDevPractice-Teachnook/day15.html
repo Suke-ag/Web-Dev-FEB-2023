@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 15</title>
+</head>
+<body>
+    <script>
+        // array => is a collection of datatypes
+
+        let myarray = [1,2,45,true,"Details"]
+        // Indecx number -> print individual data
+        document.write("<br> The values of myarray are ")
+        for(let i=0;i< myarray.length;i++)
+            document.write("<br> &emsp; At index "+i+" the value is ", myarray[i])
+        // &emsp; -> to give 4 space in html
+
+        // object -> consists of key and values
+
+        const myobject ={
+            "Username" : "Admin",
+            "Password" : 1234,
+            "Year" : 2023
+        }
+        document.write("<br>",myobject.Username);
+        console.log(myarray.Password)
+        document.write("<br> ",myobject.Password,"<br> ", myobject.Year)
+        // Global Scope -> var, let, const accesable anywhere in the program
+        var a = 10; // we can redeclare and reassigned it
+        let b = 20; // cannot redeclared
+        const c = 20; // cannot redeclare and assigned
+
+        //Functional scope -> var, let, const are accessable inside a function not outside.
+        function app(){
+            var a1 = 100;
+            let b1 = 200;
+            const c1 = 300;
+            document.write("<br> The value of a1 is ",a1);
+            document.write("<br> The value of a1 is ",b1);
+            document.write("<br> The value of a1 is ",c1);
+            // Block scope -> var, let and const are accessable inside a block
+            if(3<5){
+                var a2 = 1000;
+                let b2 = 2000;
+                const c2 = 3000;
+                // document.write("<br> The value of a1 is ",a2);
+                // document.write("<br> The value of a1 is ",b2);
+                // document.write("<br> The value of a1 is ",c2);
+                
+            }
+            // Only var is accessable ouside the block 
+            // document.write("<br> The value of a1 is ",a2);
+            // document.write("<br> The value of a1 is ",b2);
+            // document.write("<br> The value of a1 is ",c2);
+        }
+
+        app();
+            document.write("<br> ")
+
+    </script>
+</body>
+</html>

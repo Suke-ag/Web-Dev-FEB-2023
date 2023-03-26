@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 16</title>
+</head>
+<body>
+    <div align="center">
+        <h1 id="a">Introduction</h1>
+        <h1 class="c">Selector</h1>
+        <h1>Events</h1>
+    </div>
+    <script>
+        // Innerhtml will help us to modify the data
+        document.getElementById("a").innerHTML = "Introduction to Dom"
+        // here we are not deletinng anything so older version/data will also be there in the database
+        //If you want your previous data use index 0;
+        // document.getElementById("a")[0].innerHTML = "Introduction to Dom"
+        document.getElementsByClassName("c")[0].innerHTML = "Introduction to Selectors"
+        document.getElementsByClassName("c")[2].innerHTML = "Introducing Selectors"
+    </script>
+</body>
+</html>
